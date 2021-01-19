@@ -6,8 +6,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 @Document(indexName = "test", type = "books")
 public class Book {
 
-    @Id
-    private String id;
+    @Id private String id;
 
     private String title;
 

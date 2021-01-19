@@ -12,10 +12,9 @@ import org.springframework.data.domain.PageRequest;
 @SpringBootApplication
 public class Application implements CommandLineRunner {
 
-    @Autowired
-    private BookService bookService;
+    @Autowired private BookService bookService;
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
 
